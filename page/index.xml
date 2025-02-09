@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on 林大高</title>
+        <link>https://rogergzl.github.io/page/</link>
+        <description>Recent content in Pages on 林大高</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>林大高-All rights reserved.</copyright>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://rogergzl.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>归档</title>
+        <link>https://rogergzl.github.io/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://rogergzl.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>https://rogergzl.github.io/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://rogergzl.github.io/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;p&gt;这里花与竹的服务器官网，群里艾特全体太麻烦也太骚扰人，官网类型又太正式，干脆搞了一个博客类型的又省心又省事，挺好的。如有侵权，请点击网站左侧链接图标联系我，确定内容后会立即删除，其中造成的困扰万分抱歉。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>https://rogergzl.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://rogergzl.github.io/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
