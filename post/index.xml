@@ -7,7 +7,23 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>林大高-All rights reserved.</copyright>
-        <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rogergzl.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 10 Feb 2025 12:47:02 +0800</lastBuildDate><atom:link href="https://rogergzl.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Mc公告留档</title>
+        <link>https://rogergzl.github.io/p/mc%E5%85%AC%E5%91%8A%E7%95%99%E6%A1%A3/</link>
+        <pubDate>Mon, 10 Feb 2025 12:47:02 +0800</pubDate>
+        
+        <guid>https://rogergzl.github.io/p/mc%E5%85%AC%E5%91%8A%E7%95%99%E6%A1%A3/</guid>
+        <description>&lt;p&gt;2025.1.26内容量留档&lt;/p&gt;
+&lt;p&gt;机械殖民地修复公告&lt;/p&gt;
+&lt;p&gt;第一 彻底解决掉了科bee（两百万只蜜蜂）&lt;/p&gt;
+&lt;p&gt;第二 服务器全天未炸服，炸服问题完美解决（原因十分复杂，有很多，我脑子不好，雪欣莱记得清楚）（补充说明，目前炸服内容都是不兼容属性，这个只能靠作者大大加油了，禁掉幻翼后崩溃都能减少很多次也是不理解）&lt;/p&gt;
+&lt;p&gt;第三 外置登录找产品经理要了一个强加载国内的解析域名，不会再炸了&lt;/p&gt;
+&lt;p&gt;第四 解决了大部分ai和10000*在线玩家的强加载区块问题&lt;/p&gt;
+&lt;p&gt;第五 尝试增加了一个修改生物生成规律的服务端模组，如果后续因为这个炸mspt再删，降低了世界特定几类敌对生物最大刷怪上限（一万多个敌对生物到底在哪啊，炸mspt元凶）。大幅度降低了抹香鲸刷新概率，ban掉了烦人的苍蝇（依旧允许打怪生成转化，只禁用了刷怪笼和野生刷新），还有水龟ban掉了野外生成但是可以买刷怪蛋生成（有点小后悔，后面如果喜欢得多就放出来野生刷新）。敌对性生物ai变傻了一点。&lt;/p&gt;
+&lt;p&gt;第六 我会持续修复内容，有问题可以及时反馈，玩的开心&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>无用文件</title>
         <link>https://rogergzl.github.io/p/test-chinese/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
