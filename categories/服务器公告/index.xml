@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>服务器公告 on 林大高</title>
+        <link>https://rogergzl.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%85%AC%E5%91%8A/</link>
+        <description>Recent content in 服务器公告 on 林大高</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>林大高-All rights reserved.</copyright>
+        <lastBuildDate>Tue, 11 Feb 2025 14:33:05 +0800</lastBuildDate><atom:link href="https://rogergzl.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%85%AC%E5%91%8A/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ATM9 整合包适配内容公告</title>
+        <link>https://rogergzl.github.io/p/atm9-%E6%95%B4%E5%90%88%E5%8C%85%E9%80%82%E9%85%8D%E5%86%85%E5%AE%B9%E5%85%AC%E5%91%8A/</link>
+        <pubDate>Tue, 11 Feb 2025 14:33:05 +0800</pubDate>
+        
+        <guid>https://rogergzl.github.io/p/atm9-%E6%95%B4%E5%90%88%E5%8C%85%E9%80%82%E9%85%8D%E5%86%85%E5%AE%B9%E5%85%AC%E5%91%8A/</guid>
+        <description>&lt;img src="https://rogergzl.github.io/p/atm9-%E6%95%B4%E5%90%88%E5%8C%85%E9%80%82%E9%85%8D%E5%86%85%E5%AE%B9%E5%85%AC%E5%91%8A/chongfan.jpg" alt="Featured image of post ATM9 整合包适配内容公告" /&gt;&lt;h1 id=&#34;服务器正式更换内容&#34;&gt;服务器正式更换内容
+&lt;/h1&gt;&lt;p&gt;服务器即将正式关闭《机械殖民地》。&lt;/p&gt;
+&lt;h1 id=&#34;更换内容与介绍&#34;&gt;更换内容与介绍
+&lt;/h1&gt;&lt;p&gt;整合包内容更换为《ATM9》。&lt;/p&gt;
+&lt;p&gt;此次更新仅允许群内/网盘/增补原版进入服务器。&lt;/p&gt;
+&lt;p&gt;添加了一些 mod（群友推荐与汉化优化、拼音搜索、殖民地优化等），具体 mod 内容如图所示：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://rogergzl.github.io/p/atm9-%E6%95%B4%E5%90%88%E5%8C%85%E9%80%82%E9%85%8D%E5%86%85%E5%AE%B9%E5%85%AC%E5%91%8A/mod.png&#34;
+	width=&#34;863&#34;
+	height=&#34;373&#34;
+	srcset=&#34;https://rogergzl.github.io/p/atm9-%E6%95%B4%E5%90%88%E5%8C%85%E9%80%82%E9%85%8D%E5%86%85%E5%AE%B9%E5%85%AC%E5%91%8A/mod_hu_8947241e59bd9232.png 480w, https://rogergzl.github.io/p/atm9-%E6%95%B4%E5%90%88%E5%8C%85%E9%80%82%E9%85%8D%E5%86%85%E5%AE%B9%E5%85%AC%E5%91%8A/mod_hu_ba246cf56acdd8fd.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ATM9 添加的 mod 列表&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;231&#34;
+		data-flex-basis=&#34;555px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;修改了一些配置文件：改回了原本被削弱的部分机械动力内容，并且削弱了一些无关紧要的刷新。&lt;/p&gt;
+&lt;p&gt;世界中心为保护区域，请使用 /rtp 指令开始世界&lt;/p&gt;
+&lt;p&gt;整合包具体下载请点击左侧头像下方链接网盘或加入群聊。如自行下载官方包后也需要使用增补内容。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
