@@ -1,0 +1,214 @@
+<!-- 我的服务器介绍主页 - 自定义PCL主页 -->
+
+<local:MyCard Title="赞助与联系我" Margin="0,40,0,15" CanSwap="False">
+    <StackPanel Margin="0,0,0,0">
+        <!-- 顶部横幅 - 服务器宣传图 -->
+        <Border Background="{DynamicResource ColorBrush7}" CornerRadius="8" Height="200" Margin="0,0,0,20">
+            <Grid>
+                <!-- 背景图片 -->
+                <local:MyImage Height="200" Stretch="UniformToFill" Source="http://tc.dachichi.cn:8080/i/2025/08/21/68a7246b177d6.jpg" />
+                
+                <!-- 渐变遮罩 -->
+                <Border>
+                    <Border.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#00000000" Offset="0"/>
+                            <GradientStop Color="#DD000000" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                </Border>
+                
+                <!-- 内容 -->
+                <Grid Margin="30,0,30,25" VerticalAlignment="Bottom">
+                    <StackPanel>
+                        <TextBlock Text="林大高的MC服务器" FontSize="32" FontWeight="Bold" Foreground="White" Margin="0,0,0,5"/>
+                        <TextBlock Text="欢迎加入我们！" Foreground="#EEFFFFFF" FontSize="18"/>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Border>
+
+        <!-- 服务器快捷操作 -->
+        <Grid Margin="0,0,0,25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- 查看服务器 -->
+            <local:MyIconTextButton Grid.Column="0" Height="65" Margin="0,0,10,0"
+                    Background="{DynamicResource ColorBrush8}"
+                    Logo="M512 192c-35.3 0-64 28.7-64 64s28.7 64 64 64 64-28.7 64-64-28.7-64-64-64zm0-64c-70.7 0-128 57.3-128 128s57.3 128 128 128 128-57.3 128-128-57.3-128-128-128zM384 512c0-35.3 28.7-64 64-64s64 28.7 64 64-28.7 64-64 64-64-28.7-64-64zm0 64c-70.7 0-128-57.3-128-128s57.3-128 128-128 128 57.3 128 128-57.3 128-128 128zM192 320c0-35.3 28.7-64 64-64s64 28.7 64 64-28.7 64-64 64-64-28.7-64-64zm0 64c-70.7 0-128-57.3-128-128s57.3-128 128-128 128 57.3 128 128-57.3 128-128 128zM640 320c0-35.3 28.7-64 64-64s64 28.7 64 64-28.7 64-64 64-64-28.7-64-64zm0 64c-70.7 0-128-57.3-128-128s57.3-128 128-128 128 57.3 128 128-57.3 128-128 128z"
+                    Text="查看服务器" 
+                    EventType="打开网页" 
+                    EventData="http://dachichi.cn" 
+                    ColorType="Highlight"/>
+
+            <!-- 服务器官网 -->
+            <local:MyIconTextButton Grid.Column="1" Height="65" Margin="5,0,5,0"
+                    Background="{DynamicResource ColorBrush8}"
+                    Logo="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"
+                    Text="服务器官网" 
+                    EventType="打开网页" 
+                    EventData="http://dachichi.cn" 
+                    ColorType="Highlight"/>
+
+            <!-- 加入QQ群 -->
+            <local:MyIconTextButton Grid.Column="2" Height="65" Margin="10,0,0,0"
+                    Background="{DynamicResource ColorBrush8}"
+                    Logo="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                    Text="加入QQ群" 
+                    EventType="打开网页" 
+                    EventData="http://dachichi.cn" 
+                    ColorType="Highlight"/>
+        </Grid>
+
+        <!-- 服务器状态 -->
+        <local:MyCard Title="服务器实时状态" Margin="0,0,0,15" CanSwap="True">
+            <StackPanel Margin="25,40,23,15">
+                <!-- 服务器状态API集成 -->
+
+                
+                <Grid Margin="0,0,0,15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                     
+                    <!-- 服务器版本 -->
+                    <Grid Grid.Column="0" Margin="0,0,10,0">
+                        <Border Background="{DynamicResource ColorBrush8}" CornerRadius="8" Padding="15">
+                            <StackPanel>
+                                <TextBlock Text="服务器版本" FontSize="14" Margin="0,0,0,5"/>
+                                <TextBlock Name="ServerVersionText" Text="机械师1.21.1" FontSize="16" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}"/>
+                            </StackPanel>
+                        </Border>
+                    </Grid>
+                    
+                    <!-- 延迟 -->
+                    <Grid Grid.Column="1" Margin="10,0,0,0">
+                        <Border Background="{DynamicResource ColorBrush8}" CornerRadius="8" Padding="15">
+                            <StackPanel>
+                                <TextBlock Text="延迟" FontSize="14" Margin="0,0,0,5"/>
+                                <TextBlock Name="ServerPingText" Text="24ms" FontSize="16" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}"/>
+                            </StackPanel>
+                        </Border>
+                    </Grid>
+                </Grid>
+                
+                <!-- 服务器MOTD -->
+                <local:MyCard Title="服务器介绍" Margin="0,10,0,0" CanSwap="False">
+                    <StackPanel Margin="15,25,15,15">
+                        <TextBlock Name="ServerMOTDText" Text="欢迎加入我们的服务器，我们是一个专业的Minecraft服务器，致力于为玩家提供最好的游戏体验。" TextWrapping="Wrap"/>
+
+                    </StackPanel>
+                </local:MyCard>
+                
+
+            </StackPanel>
+        </local:MyCard>
+
+        <!-- 服务器信息 -->
+        <local:MyCard Title="整合包下载" Margin="0,0,0,15" CanSwap="True">
+            <Grid Margin="25,40,23,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                
+                <!-- 特色列表 -->
+                <StackPanel Grid.Column="0">
+                    <local:MyListItem Margin="0,0,0,8"
+                            Logo="http://tc.dachichi.cn:8080/i/2025/08/21/68a733f340aeb.png"
+                            Title="机械服务器" Info="紧凑的机械创造最美的世界."
+                            Cursor="Hand" IsHitTestVisible="True"
+                            EventType="打开网页" EventData="http://dachichi.cn" Type="Clickable"/>
+                    <local:MyListItem Margin="0,0,0,8"
+                            Logo="http://tc.dachichi.cn:8080/i/2025/08/21/68a733f736f51.png"
+                            Title="原版生电插件服" Info="生电玩多了会丧失人性，拉出去枪毙都算便宜你."
+                            Cursor="Hand" IsHitTestVisible="True"
+                            EventType="打开网页" EventData="http://dachichi.cn" Type="Clickable"/>
+                    <local:MyListItem Margin="0,0,0,8"
+                            Logo="http://tc.dachichi.cn:8080/i/2025/08/21/68a733f7ef7f6.png"
+                            Title="赞助请联系腐竹" Info="有任何问题请联系腐竹."
+                            Cursor="Hand" IsHitTestVisible="True"
+                            EventType="打开网页" EventData="http://dachichi.cn" Type="Clickable"/>
+                </StackPanel>
+                
+                <!-- 右侧图片接口 -->
+                <Border Grid.Column="1" Margin="10,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <local:MyImage Source="http://tc.dachichi.cn:8080/i/2025/08/21/68a733f148985.png" Height="Auto" Width="Auto" Stretch="Uniform"/>
+                </Border>
+            </Grid>
+        </local:MyCard>
+        
+        <!-- 赞助与联系我 -->
+        <local:MyCard Title="赞助与联系我" Margin="0,20,0,15" CanSwap="True">
+            <StackPanel Margin="25,40,23,15">
+                <!-- 等分窗口布局 -->
+                <Grid Margin="0,0,0,5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <!-- 支付宝 -->
+                    <Border Grid.Column="0" Background="{DynamicResource ColorBrush8}" CornerRadius="8" Margin="0,0,5,0">
+                        <Border Background="White" CornerRadius="4" Margin="10">
+                            <local:MyImage Height="Auto" Width="Auto" Stretch="Uniform" Source="http://tc.dachichi.cn:8080/i/2025/08/22/68a7458fa903d.jpg" />
+                        </Border>
+                    </Border>
+                    
+                    <!-- 微信 -->
+                    <Border Grid.Column="1" Background="{DynamicResource ColorBrush8}" CornerRadius="8" Margin="5,0,5,0">
+                        <Border Background="White" CornerRadius="4" Margin="10">
+                            <local:MyImage Height="Auto" Width="Auto" Stretch="Uniform" Source="http://tc.dachichi.cn:8080/i/2025/08/22/68a7458f0e65b.png" />
+                        </Border>
+                    </Border>
+                    
+                    <!-- 联系我 -->
+                    <Border Grid.Column="2" Background="{DynamicResource ColorBrush8}" CornerRadius="8" Margin="5,0,0,0">
+                        <Border Background="White" CornerRadius="4" Margin="10">
+                            <local:MyImage Height="Auto" Width="Auto" Stretch="Uniform" Source="http://tc.dachichi.cn:8080/i/2025/08/22/68a7458e31a63.png" />
+                        </Border>
+                    </Border>
+                </Grid>
+                
+
+            </StackPanel>
+        </local:MyCard>
+        
+        <!-- 服务器公告 -->
+        <local:MyCard Title="服务器公告" Margin="0,0,0,15" CanSwap="True">
+            <StackPanel Margin="25,40,23,15">
+                <local:MyHint Margin="0,0,0,8" IsWarn="True" 
+                        Text="欢迎加入我们的服务器！请遵守服务器规则，共同创造和谐游戏环境。"/>
+                <local:MyHint Margin="0,0,0,8" IsWarn="False" 
+                        Text="最新活动：拉人有奖."/>
+                <local:MyButton Margin="0,8,0,0" Width="200" Height="35" 
+                        Text="查看完整公告" EventType="打开网页" EventData="https://dachichi.cn"/>
+            </StackPanel>
+        </local:MyCard>
+
+        <!-- 底部信息 - 可点击跳转 -->
+        <StackPanel Margin="15,5,15,15" HorizontalAlignment="Center">
+            <local:MyIconTextButton Height="25" Width="Auto"
+                    Background="Transparent"
+                    Logo=""
+                    Text="赞助内容会用来维护服务器 | 独立机9950x维护您的游戏稳定"
+                    EventType="打开网页"
+                    EventData="http://dachichi.cn"
+                    ColorType="Highlight" Cursor="Hand"/>
+
+            <local:MyIconTextButton Height="25" Width="Auto"
+                    Background="Transparent"
+                    Logo=""
+                    Text="服务器IP: mc.aphqsia.com | 服务器维护不易，如果觉得不错请赞助我们"
+                    EventType="打开网页"
+                    EventData="http://dachichi.cn"
+                    ColorType="Highlight" Cursor="Hand"/>
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
